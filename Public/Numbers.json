@@ -1,48 +1,62 @@
 [
     {
         "English": "1",
-        "Shawnee": "Nikoti"
+        "Shawnee": "Nee-koh-tee",
+        "audio": "",
+        "image": "media\\1"
     },
     {
         "English": "2",
-        "Shawnee": "Niiswi"
+        "Shawnee": "Nee-swee",
+        "audio": "",
+        "image": "media\\2"
     },
     {
         "English": "3",
-        "Shawnee": "Thwi"
+        "Shawnee": "N'Thwee",
+        "audio": "",
+        "image": "media\\3"
     },
     {
         "English": "4",
-        "Shawnee": "Niyeewi"
+        "Shawnee": "Nee-yay-wee",
+        "audio": "",
+        "image": "media\\4"
     },
     {
         "English": "5",
-        "Shawnee": "Niyaalanwi"
+        "Shawnee": "N’yah-lahn-wee",
+        "audio": "",
+        "image": "media\\5"
     },
     {
         "English": "6",
-        "Shawnee": "Nakotwaathwi"
+        "Shawnee": "Nay-koh-twah-thwee",
+        "audio": "",
+        "image": "media\\6"
     },
     {
         "English": "7",
-        "Shawnee": "Niswaathwi"
+        "Shawnee": "Nee-swah-thwee",
+        "audio": "",
+        "image": "media\\7"
     },
     {
         "English": "8",
-        "Shawnee": "Thwaasikthwi"
+        "Shawnee": "N’thah-sick-thwee",
+        "audio": "",
+        "image": "media\\8"
     },
     {
         "English": "9",
-        "Shawnee": "Chaaka'thwi"
+        "Shawnee": "Chah-kaht-thwee",
+        "audio": "",
+        "image": "media\\9"
     },
     {
         "English": "10",
-        "Shawnee": "Metaahthwi"
-    },
-    {
-        "English": "11",
-        "Shawnee": "11",
+        "Shawnee": "May-tah-thwee",
         "audio": "",
-        "image": "media\\3a4aa272c800daedbc361946cebe4332"
+        "image": "media\\10"
     }
 ]
