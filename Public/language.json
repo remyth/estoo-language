@@ -1,54 +1,54 @@
 [
     {
         "English": "Do you feel good?",
-        "Shawnee": "Hakowisilaasamamo",
-        "audio": "audio\\21ca4208bc6a245e1449962de788e1c9"
+        "Shawnee": "Hah-koh-wee-see-lah-sah-mom-moh",
+        "audio": "media\\21ca4208bc6a245e1449962de788e1c9"
     },
     {
         "English": "Come here",
-        "Shawnee": "Piyalo",
-        "audio": "audio\\7e9d9f51e8a81dfe7541db409afc91e5"
+        "Shawnee": "Pee-yah-loh",
+        "audio": "media\\7e9d9f51e8a81dfe7541db409afc91e5"
     },
     {
         "English": "I am full",
-        "Shawnee": "Niteephoolo",
-        "audio": "audio\\fb783bf19a14620b41c0fdb47f6804cf"
+        "Shawnee": "Nee-teh-poh-loh",
+        "audio": "media\\fb783bf19a14620b41c0fdb47f6804cf"
     },
     {
         "English": "Hello",
-        "Shawnee": "Hatito",
-        "audio": "audio\\4b8a10b9f2880d2432174fb4cdb39f40"
+        "Shawnee": "Hah-tee-toh",
+        "audio": "media\\4b8a10b9f2880d2432174fb4cdb39f40"
     },
     {
         "English": "Let's eat",
-        "Shawnee": "Withiniko",
-        "audio": "audio\\1db57434f4bb09c266b6accddd1f6bb8"
+        "Shawnee": "Wee-thin-e-koh",
+        "audio": "media\\1db57434f4bb09c266b6accddd1f6bb8"
     },
     {
         "English": "Until later",
-        "Shawnee": "Salanoki",
-        "audio": "audio\\cc9692728616946a13dfa63bbaf94d8c"
+        "Shawnee": "Sah-lahn-oh-kee",
+        "audio": "media\\cc9692728616946a13dfa63bbaf94d8c"
     },
     {
         "English": "Good Morning",
-        "Shawnee": "Howisiwapani",
-        "audio": "audio\\7dedd461fa1eadf23ded91ee2ab1dca6"
+        "Shawnee": "Hoh-wee-see-wah-pah-nee",
+        "audio": "media\\7dedd461fa1eadf23ded91ee2ab1dca6"
     },
     {
         "English": "Stop",
-        "Shawnee": "Nakika",
+        "Shawnee": "Nah-kee-kah",
         "audio": "media\\a50139094cd5309e002100b9c555eadb",
         "image": "media\\23b96b35e3d6cfebf4e4c37b3da7838f"
     },
     {
         "English": "Corn",
-        "Shawnee": "Tami",
+        "Shawnee": "Tah-meh",
         "audio": "media\\13d218a4eaa49749d7d349514f8dbeb5",
         "image": "media\\b7663b824b6d5b8c7ef3f740533cd5f0"
     },
     {
         "English": "Bow",
-        "Shawnee": "Wee-Lay-Nah-aKwah",
+        "Shawnee": "Wee-lay-nah-ah-kwah",
         "audio": "media\\ecc323353385a561a00966ac1db13061",
         "image": "media\\22db421254b26716e23cb9382b9ad8d1"
     }
