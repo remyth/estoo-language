@@ -5,7 +5,7 @@ var multer = require("multer");
 var json = require("./Public/language.json");
 var fs = require("fs");
 
-var port = '8080';
+var port = '3000';
 var upload = multer({ dest: './Public/media/'}).fields([{name: 'getAudio', maxCount: 1}, {name: 'getImage', maxCount: 1}]);
 
 var getWords = (count, json) => {
