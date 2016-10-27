@@ -1,0 +1,156 @@
+html, body {
+  background-color: #6BA9BF;
+  margin: 0;
+  height: auto;;
+}
+nav.top-nav{
+  overflow: hidden;
+  background-color: black;
+
+}
+ul.top-nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.top-nav-ul li {
+  float: left;
+}
+ul.top-nav-ul li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+ul.top-nav-ul li a:hover {
+  background-color: grey;
+}
+ul.top-nav-ul li.active {
+  background-color: orange;
+}
+nav .top-nav-right {
+  float: right!important;
+  padding: 10px;
+  margin: 5px;
+}
+nav .top-nav-right-label {
+  color: white;
+  float: right;
+  margin: 10px;
+  font-size: 24px;
+}
+/*div.top-nav-ul li {
+  float: left;
+}
+ul.top-nav-ul li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}*/
+h1  {
+  text-align: center;
+}
+table {
+  height: 85%;
+  width: 100%;
+  margin: 0;
+}
+tr {
+  height: 200px;
+}
+td {
+  border-style: solid;
+  border-color: black;
+  width: 50%;
+  font-size: 2em;
+  text-align: center;
+  background-color: moccasin;
+
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  /*position: relative;*/
+  /*overflow: hidden;*/
+}
+img {
+  max-width: 50%;
+  max-height: 40%;
+}
+td::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-color: #2098d1;
+  border-style: solid;
+  border-width: 0;
+  -webkit-transition-property: border-width;
+  transition-property: border-width;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+td:hover::before, td:focus::before, td:active::before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  border-width: 4px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   img {heght: 200px; width: 200px}
+}
+.ScoreBoard {
+  font-size: 17px;
+  position: absolute;
+  top: 80px;
+  right: 35px;
+  background-color: white;
+  text-align: center;
+  width: 50px;
+}
+.ScoreBoard-label {
+  color: red;
+  font-size: 17px;
+  position: absolute;
+  top: 80px;
+  right: 85px;
+  background-color: black;
+  text-align: center;
+  width: 75px;
+}
+#GameWords {
+  max-height:85%;
+  height: 85%;
+}
+input[id^="word-"] {
+  height: 30%;
+  width: 24%;
+  font-size: 20em;
+}
+#Shawnee-Word {
+  display: inline-block;
+  /*position: absolute;*/
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+#Shawnee {
+  text-align: center;
+  width: 75%;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 2em;
+}

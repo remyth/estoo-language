@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Enter Words</title>
+    <link rel="stylesheet" href="/css/add-words.css">
+  </head>
+  <body>
+    <nav class="top-nav "id="top-nav">
+      <ul class="top-nav-ul" id="top-nav-ul">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/learn.html">Learn</a></li>
+        <li><a href="/Game.html">Play</a></li>
+        <li class="active"><a href="/add-words.html">Contribute</a></li>
+      </ul>
+    </nav>
+    <form action="/add-words" method="post" enctype="multipart/form-data">
+      <label for="formselect">Select:</label>
+      <select name="formselect" id="formselect">
+        <option value="Numbers" name="Numbers">Numbers</option>
+        <option value="language" name="language">Words</option>
+      </select><br>
+      <label for="English">English:</label>
+      <input type="text" id="English" name="English" placeholder="English" autofocus>
+      <label for="Shawnee">Shawnee:</label>
+      <input type="text" id="Shawnee" name="Shawnee" placeholder="Shawnee">
+      <label for="getAudio">Audio File:</label>
+      <input type="file" id="getAudio" name="getAudio" accept="audio/*">
+      <label for="getImage">Image File:</label>
+      <input type="file" id="getImage" name="getImage" accept="image/*">
+      <br>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

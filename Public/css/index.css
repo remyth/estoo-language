@@ -1,0 +1,76 @@
+html, body {
+  background-color: #6BA9BF;
+  margin: 0;
+  height: auto;
+}
+@font-face {
+    font-family: "FCB";
+    src: url('/fonts/FCB.ttf') format("truetype");
+}
+ul.top-nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+ul.top-nav-ul li {
+  float: left;
+}
+ul.top-nav-ul li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+ul.top-nav-ul li a:hover {
+  background-color: grey;
+}
+ul.top-nav-ul li.active {
+  background-color: orange;
+}
+h1  {
+  font-family: "FCB";
+  font-size: 60px;
+  text-align: center;
+}
+h3 {
+  font-family: "FCB";
+  font-size: 30px;
+  text-align: center;
+}
+div {
+  background-color: #008ae6;
+  height: 100px;
+  width: 300px;
+  border: 5px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 60px;
+  border-color: grey;
+  border-style: solid;
+  font-family: cursive;
+}
+div:hover {
+  border-color: black;
+  background-color: #0099ff;
+  color: red;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  text-align: right;
+}
