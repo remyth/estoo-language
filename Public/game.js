@@ -100,6 +100,7 @@ $article = $('#article').val();
             swel.setAttribute('type', 'text');
             swel.setAttribute('id', 'Shawnee');
             swel.setAttribute('disabled', true);
+            swel.setAttribute('style', 'width:'+testWord.Shawnee.length*20+'px');
             swel.setAttribute('value', testWord.Shawnee)
             sw.appendChild(swel);
 
