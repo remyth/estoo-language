@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {     // Wait for Page
             swel.setAttribute('type', 'text');
             swel.setAttribute('id', 'Shawnee');
             swel.setAttribute('disabled', true);
+            swel.setAttribute('style', 'width:'+data[0].Shawnee.length*30+'px');
             swel.setAttribute('value', data[0].Shawnee)
             sw.appendChild(swel);
 
