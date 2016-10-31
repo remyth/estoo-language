@@ -50,7 +50,7 @@ nav .top-nav-right-label {
     font-family: "FCB";
     src: url('/fonts/FCB.ttf') format("truetype");
 }
-@media only screen and (device-aspect-ratio: 1080/1920) {
+@media only screen and (max-width: 420px) {
   img {min-width: 100%; min-height: 100%;}
 }
 img {
