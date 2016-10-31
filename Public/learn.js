@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {     // Wait for Page
     //  FUNCTIONS :
     var setAudioClick = function (sw, data) {     // Click event for replaying the test word.
       sw.addEventListener('click', function() {
+          data.load();
           data.play();
         });
     };
@@ -60,6 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {     // Wait for Page
               sw.appendChild(audioel);
               var audio = document.getElementById('audioel');
               setAudioClick(sw, audio);
+              audio.load();
               audio.play();
             };
         });
